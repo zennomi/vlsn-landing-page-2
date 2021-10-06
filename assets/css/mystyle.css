@@ -1,0 +1,13 @@
+.navbar-brand > img {
+	width: 50px;
+}
+
+@media (max-width: 768px) {
+	.slider-content {
+		padding-top: 200px;
+		padding-bottom: 300px;
+	}
+	.slider-image-box {
+		padding-bottom: 50px;
+	}
+}
