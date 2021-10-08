@@ -1,0 +1,175 @@
+.portfolio-two .portfolio-menu-2 button {
+    border: none;
+    background: 0 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #6c6c6c;
+    line-height: 48px;
+    padding: 0 30px;
+    position: relative;
+    border-radius: 50px;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 5;
+    transition: all .3s ease-out 0s;
+    cursor: pointer;
+    margin: 0 2px;
+    text-transform: uppercase
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .portfolio-two .portfolio-menu-2 button {
+        font-size:14px;
+        padding: 0 26px
+    }
+}
+
+@media (max-width: 767px) {
+    .portfolio-two .portfolio-menu-2 button {
+        font-size:14px;
+        padding: 0 22px;
+        line-height: 42px
+    }
+}
+
+.portfolio-two .portfolio-menu-2 button::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,#0067f4 0,#2bdbdc 100%);
+    z-index: -1;
+    opacity: 0;
+    transition: all .3s ease-out 0s
+}
+
+.portfolio-two .portfolio-menu-2 button.active,.portfolio-two .portfolio-menu-2 button:hover {
+    color: #fff
+}
+
+.portfolio-two .portfolio-menu-2 button.active::before,.portfolio-two .portfolio-menu-2 button:hover::before {
+    opacity: 1
+}
+
+.portfolio-two .single-portfolio {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px
+}
+
+.portfolio-two .single-portfolio .portfolio-image img {
+    width: 100%;
+    transition: all .3s ease-out 0s
+}
+
+.portfolio-two .single-portfolio .portfolio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s ease-out 0s;
+    background-color: rgba(255,255,255,.8);
+    transform: scale(.95);
+    border-radius: 8px
+}
+
+.portfolio-two .single-portfolio .portfolio-overlay .portfolio-content {
+    padding: 16px
+}
+
+.portfolio-two .single-portfolio .portfolio-overlay .portfolio-content .portfolio-icon {
+    position: relative;
+    display: inline-block;
+    margin: 0 20px
+}
+
+.portfolio-two .single-portfolio .portfolio-overlay .portfolio-content .portfolio-icon a {
+    font-size: 48px;
+    color: #0067f4;
+    position: relative;
+    z-index: 5;
+    line-height: 50px
+}
+
+.portfolio-two .single-portfolio .portfolio-overlay .portfolio-content .portfolio-icon .shape {
+    position: absolute;
+    top: 7px;
+    left: 0
+}
+
+.portfolio-two .single-portfolio .portfolio-overlay .portfolio-content .portfolio-text {
+    padding-top: 24px
+}
+
+@media (max-width: 767px) {
+    .portfolio-two .single-portfolio .portfolio-overlay .portfolio-content .portfolio-text {
+        padding-top:10px
+    }
+}
+
+.portfolio-two .single-portfolio .portfolio-overlay .portfolio-content .portfolio-text .portfolio-title a {
+    color: #121212;
+    font-size: 24px;
+    line-height: 30px
+}
+
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+    .portfolio-two .single-portfolio .portfolio-overlay .portfolio-content .portfolio-text .portfolio-title a {
+        font-size:20px
+    }
+}
+
+@media (max-width: 767px) {
+    .portfolio-two .single-portfolio .portfolio-overlay .portfolio-content .portfolio-text .portfolio-title a {
+        font-size:20px
+    }
+}
+
+.portfolio-two .single-portfolio .portfolio-overlay .portfolio-content .portfolio-text .text {
+    color: #121212;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 8px
+}
+
+.portfolio-two .single-portfolio:hover .portfolio-overlay {
+    opacity: 1;
+    visibility: visible
+}
+
+.call-action-one {
+    background-color: #f4f6f7
+}
+
+.call-action-one .call-action-content .call-action-text .action-title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 55px;
+    color: #121212
+}
+
+@media (max-width: 767px) {
+    .call-action-one .call-action-content .call-action-text .action-title {
+        font-size:30px;
+        line-height: 40px
+    }
+}
+
+.call-action-one .call-action-content .call-action-text .text {
+    font-size: 20px;
+    color: #121212;
+    line-height: 30px;
+    margin-top: 16px
+}
+
+@media (max-width: 767px) {
+    .call-action-one .call-action-content .call-action-text .text {
+        font-size:16px;
+        line-height: 27px
+    }
+}

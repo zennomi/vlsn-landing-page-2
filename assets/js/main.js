@@ -120,7 +120,7 @@ $(function() {
         });
 
         // filter items on button click
-        $('.portfolio-menu ul').on('click', 'li', function () {
+        $('.portfolio-menu-2').on('click', 'button', function () {
             var filterValue = $(this).attr('data-filter');
             $grid.isotope({
                 filter: filterValue
@@ -128,7 +128,7 @@ $(function() {
         });
 
         //for menu active class
-        $('.portfolio-menu ul li').on('click', function (event) {
+        $('.portfolio-menu-2 button').on('click', function (event) {
             $(this).siblings('.active').removeClass('active');
             $(this).addClass('active');
             event.preventDefault();
