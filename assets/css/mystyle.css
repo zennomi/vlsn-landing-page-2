@@ -11,3 +11,13 @@
 		padding-bottom: 50px;
 	}
 }
+
+.mentor-slides{
+	background-color: transparent;
+	background: none;
+}
+
+.footer-title{
+	text-align: center;
+	margin-bottom: 10px;
+}
