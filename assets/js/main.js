@@ -25,21 +25,21 @@ $(function() {
     
     //===== Section Menu Active
 
-    var scrollLink = $('.page-scroll');
-    // Active link switching
-    $(window).scroll(function () {
-        var scrollbarLocation = $(this).scrollTop();
+    // var scrollLink = $('.page-scroll');
+    // // Active link switching
+    // $(window).scroll(function () {
+    //     var scrollbarLocation = $(this).scrollTop();
 
-        scrollLink.each(function () {
+    //     scrollLink.each(function () {
 
-            var sectionOffset = $(this.hash).offset().top - 73;
+    //         var sectionOffset = $(this.hash).offset().top - 73;
 
-            if (sectionOffset <= scrollbarLocation) {
-                $(this).parent().addClass('active');
-                $(this).parent().siblings().removeClass('active');
-            }
-        });
-    });
+    //         if (sectionOffset <= scrollbarLocation) {
+    //             $(this).parent().addClass('active');
+    //             $(this).parent().siblings().removeClass('active');
+    //         }
+    //     });
+    // });
     
     
     //===== close navbar-collapse when a  clicked
@@ -70,7 +70,7 @@ $(function() {
     
     //===== Slick
 
-    $('.slider-items-active').slick({
+    $('.team-slider').slick({
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -78,9 +78,9 @@ $(function() {
         arrows: true,
         prevArrow: '<span class="prev"><i class="lni lni-arrow-left"></i></span>',
         nextArrow: '<span class="next"><i class="lni lni-arrow-right"></i></span>',
-        dots: true,
+        // dots: true,
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 2000,
         responsive: [
             {
                 breakpoint: 1200,
@@ -89,28 +89,55 @@ $(function() {
                 }
             },
             {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 576,
-                settings: {
                     slidesToShow: 1,
-                    arrows: false,
                 }
             }
         ]
     });
     
+    $('.about-slider').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        speed: 800,
+        arrows: true,
+        prevArrow: '<span class="prev"><i class="lni lni-chevron-left"></i></i></span>',
+        nextArrow: '<span class="next"><i class="lni lni-chevron-right"></i></span>',
+        // dots: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    });
+
+    $('.result-slider').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        speed: 800,
+        arrows: true,
+        prevArrow: '<span class="prev"><i class="lni lni-chevron-left"></i></span>',
+        nextArrow: '<span class="next"><i class="lni lni-chevron-right"></i></span>',
+        // dots: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
     
+
     //===== Isotope Project 4
 
     $('.container').imagesLoaded(function () {

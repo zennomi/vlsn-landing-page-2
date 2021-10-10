@@ -40,6 +40,8 @@
     <link rel="stylesheet" href="assets/css/sidestyle.css">
     <link rel="stylesheet" href="assets/css/mystyle.css">
 
+    <link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
+    
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
@@ -110,16 +112,16 @@
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
                             <ul class="navbar-nav m-auto">
                                 <li class="nav-item active"><a class="page-scroll" href="#home">Trang chủ</a></li>
-                                <li class="nav-item"><a class="page-scroll" href="#services">Giáo viên & Trợ giảng</a>
+                                <li class="nav-item"><a class="page-scroll" href="#team-teacher">Giáo viên & Trợ giảng</a>
                                 </li>
                                 <li class="nav-item"><a class="page-scroll" href="#portfolio">Thời khóa biểu</a></li>
-                                <li class="nav-item"><a class="page-scroll" href="#pricing">Thông tin liên hệ</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="#lienhe">Thông tin liên hệ</a></li>
                             </ul>
                         </div>
 
                         <div class="navbar-btn d-none d-sm-inline-block">
                             <ul>
-                                <li><a class="solid" href="#">Đăng ký học</a></li>
+                                <li><a class="solid" href="#lienhe">Đăng ký học</a></li>
                             </ul>
                         </div>
                     </nav> <!-- navbar -->
@@ -134,23 +136,28 @@
 
     <section id="home" class="slider_area">
         <div id="carouselThree" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
+            <!-- <ol class="carousel-indicators">
                 <li data-target="#carouselThree" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselThree" data-slide-to="1"></li>
                 <li data-target="#carouselThree" data-slide-to="2"></li>
-            </ol>
+            </ol> -->
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="slider-content">
-                                    <h1 class="title">Chinh phục Vật Lý từ số 0 </h1>
-                                    <p class="text"><span class="highlight">Hỗ trợ miễn phí</span> cho tới khi đuổi kịp chương trình học trên lớp.</p>
+                                <div class="slider-content wow">
+                                    <h1 class="title">Chinh phục Vật Lý từ số 0</h1>
+                                    <p class="text">
+                                        <i class="lni lni-help highlight"></i> Đăng ký muộn không theo kịp chương trình học?<br>
+                                        <span class="highlight my-1"><i class="lni lni-chevron-right-circle"></i> Trợ giảng</span> kèm trực tiếp<br>
+                                        <span class="highlight my-1"><i class="lni lni-chevron-right-circle"></i> Bài giảng/Tài liệu</span> trọn bộ<br>
+                                        <span class="highlight my-1"><i class="lni lni-checkmark-circle"></i> Hỗ trợ hoàn toàn miễn phí</span>
+                                    </p>
                                     <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="#">ĐĂNG KÝ NGAY</a></li>
-                                        <li><a class="main-btn rounded-two" href="#">TÌM HIỂU THÊM</a></li>
+                                        <li><a class="main-btn rounded-one zoom-effect" href="#lienhe">ĐĂNG KÝ NGAY</a></li>
+                                        <li><a class="main-btn rounded-two" href="#about">TÌM HIỂU THÊM</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -163,70 +170,23 @@
                     </div> <!-- slider-imgae box -->
                 </div> <!-- carousel-item -->
 
-                <div class="carousel-item">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="slider-content">
-                                    <h1 class="title">Crafted for Business</h1>
-                                    <p class="text">We blend insights and strategy to create digital products for
-                                        forward-thinking organisations.</p>
-                                    <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="#">GET STARTED</a></li>
-                                        <li><a class="main-btn rounded-two" href="#">DOWNLOAD</a></li>
-                                    </ul>
-                                </div> <!-- slider-content -->
-                            </div>
-                        </div> <!-- row -->
-                    </div> <!-- container -->
-                    <div class="slider-image-box d-flex align-items-end">
-                        <div class="slider-image">
-                            <img src="assets/images/slider/2.png" alt="Hero">
-                        </div> <!-- slider-imgae -->
-                    </div> <!-- slider-imgae box -->
-                </div> <!-- carousel-item -->
-
-                <div class="carousel-item">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="slider-content">
-                                    <h1 class="title">Based on Bootstrap 4</h1>
-                                    <p class="text">We blend insights and strategy to create digital products for
-                                        forward-thinking organisations.</p>
-                                    <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="#">GET STARTED</a></li>
-                                        <li><a class="main-btn rounded-two" href="#">DOWNLOAD</a></li>
-                                    </ul>
-                                </div> <!-- slider-content -->
-                            </div>
-                        </div> <!-- row -->
-                    </div> <!-- container -->
-                    <div class="slider-image-box d-none d-flex align-items-end">
-                        <div class="slider-image">
-                            <img src="assets/images/slider/3.png" alt="Hero">
-                        </div> <!-- slider-imgae -->
-                    </div> <!-- slider-imgae box -->
-                </div> <!-- carousel-item -->
             </div>
 
-            <a class="carousel-control-prev" href="#carouselThree" role="button" data-slide="prev">
+            <!-- <a class="carousel-control-prev" href="#carouselThree" role="button" data-slide="prev">
                 <i class="lni lni-arrow-left"></i>
             </a>
             <a class="carousel-control-next" href="#carouselThree" role="button" data-slide="next">
                 <i class="lni lni-arrow-right"></i>
-            </a>
+            </a> -->
         </div>
     </section>
 
     <!--====== SLIDER PART ENDS ======-->
 
-    <!--====== FEATRES TWO PART START ======-->
-
     <section class="features-area">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col col-6 col-md-3 mb-2">
+                <div class="col col-6 col-md-3 mb-2 wow fadeInUp">
                     <div class="single-features shadow-sm h-100">
                         <div class="features-title-icon d-flex flex-column align-items-center">
                             <div class="features-icon">
@@ -236,12 +196,13 @@
                             <h4 class="features-title">Thương Hiệu</h4>
                         </div>
                         <div class="features-content">
-                            <p class="text text-center">Thầy Trần Quý với kinh nghiệm 15 năm giảng dạy môn Lý đã xây dựng nên thương
+                            <p class="text text-center">Thầy Trần Quý với kinh nghiệm 15 năm giảng dạy môn Lý đã xây
+                                dựng nên thương
                                 hiệu Vật Lý Siêu Nhẩm với hàng ngàn học sinh theo học.</p>
                         </div>
                     </div> <!-- single features -->
                 </div>
-                <div class="col col-6 col-md-3 mb-2">
+                <div class="col col-6 col-md-3 mb-2 wow fadeInUp">
                     <div class="single-features shadow-sm h-100">
                         <div class="features-title-icon d-flex flex-column align-items-center">
                             <div class="features-icon">
@@ -250,12 +211,13 @@
                             <h4 class="features-title">Trợ Giảng</h4>
                         </div>
                         <div class="features-content">
-                            <p class="text text-center">Là thủ khoa đầu ra các trường cấp 3 top đầu tại Hà Nội, được đào tạo kỹ năng
-                                chuyên môn sư phạm sắn sàng hỗ trợ 24/7.</p>
+                            <p class="text text-center">Là thủ khoa đầu ra các trường cấp 3 top đầu tại Hà Nội, được đào
+                                tạo kỹ năng
+                                chuyên môn sư phạm sẵn sàng hỗ trợ 24/7.</p>
                         </div>
                     </div> <!-- single features -->
                 </div>
-                <div class="col col-6 col-md-3 mb-2">
+                <div class="col col-6 col-md-3 mb-2 wow fadeInUp">
                     <div class="single-features shadow-sm h-100">
                         <div class="features-title-icon d-flex flex-column align-items-center">
                             <div class="features-icon">
@@ -264,11 +226,12 @@
                             <h4 class="features-title">Bài Giảng</h4>
                         </div>
                         <div class="features-content">
-                            <p class="text text-center">Được thiết kế hiệu quả, sáng tạo khơi gợi cảm hứng giúp học sinh tiếp thu dễ dàng.</p>
+                            <p class="text text-center">Được thiết kế hiệu quả, sáng tạo khơi gợi cảm hứng giúp học sinh
+                                tiếp thu dễ dàng.</p>
                         </div>
                     </div> <!-- single features -->
                 </div>
-                <div class="col col-6 col-md-3 mb-2">
+                <div class="col col-6 col-md-3 mb-2 wow fadeInUp">
                     <div class="single-features shadow-sm h-100">
                         <div class="features-title-icon d-flex flex-column align-items-center">
                             <div class="features-icon">
@@ -277,36 +240,384 @@
                             <h4 class="features-title">Phương Pháp</h4>
                         </div>
                         <div class="features-content">
-                            <p class="text text-center">Giáo viên luôn là người ĐỊNH HƯỚNG ĐÚNG - TRUYỀN CẢM HỨNG - RỒI MỚI DẠY HỌC. Cài đặt tư duy thành công.</p>
+                            <p class="text text-center">Giáo viên luôn là người ĐỊNH HƯỚNG ĐÚNG - TRUYỀN CẢM HỨNG - RỒI
+                                MỚI DẠY HỌC. Cài đặt tư duy thành công.</p>
                         </div>
                     </div> <!-- single features -->
                 </div>
             </div> <!-- row -->
         </div>
+
     </section>
 
-    <!--====== FEATRES TWO PART ENDS ======-->
+    <section id="about" class="about-area wow fadeInUp">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="faq-content mt-45">
+                        <div class="about-title">
+                            <h6 class="sub-title">CAM KẾT CHẤT LƯỢNG ĐẦU RA</h6>
+                            <h4 class="title">Đáp ứng mọi nhu cầu của phụ huynh và học sinh</h4>
+                        </div> <!-- faq title -->
+                        <div class="about-accordion">
+                            <div class="accordion" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header" id="headingFore">
+                                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse1"
+                                            aria-expanded="false" aria-controls="collapse1">Tại sao phụ huynh và học
+                                            sinh tin tưởng Thầy Trần Quý & Vật Lý Siêu Nhẩm?</a>
+                                    </div>
+                                    <div id="collapse1" class="collapse" aria-labelledby="headingFore"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <ul>
+                                                <li><i class="lni lni-star-filled text-primary"></i> Thầy Trần Quý đã có
+                                                    15 năm giúp hàng ngàn học sinh luyện thi vào 10, Đại Học tại
+                                                    khu vực Hà Nội và xây dựng thành công thương hiệu <b>Vật Lý Siêu Nhẩm</b>.
+                                                </li>
+                                                <li><i class="lni lni-star-filled text-primary"></i> Thầy luôn ĐỊNH
+                                                    HƯỚNG ĐÚNG – TRUYỀN CẢM HỨNG – RỒI MỚI DẠY HỌC.</li>
+                                                <li><i class="lni lni-star-filled text-primary"></i> Các trò theo học
+                                                    Vật Lý Siêu Nhẩm luôn đỗ vào các trường ĐH TOP đầu của Hà Nội.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div> <!-- card -->
+
+                                <div class="card">
+                                    <div class="card-header" id="headingFore">
+                                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFore"
+                                            aria-expanded="false" aria-controls="collapseFore">Đăng ký học muộn liệu có
+                                            theo kịp lớp?</a>
+                                    </div>
+                                    <div id="collapseFore" class="collapse" aria-labelledby="headingFore"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p class="text">Học viên tham gia muộn sẽ được trợ giảng kèm riêng <b>MIỄN
+                                                    PHÍ</b>
+                                                và nhận các video bài giảng để bổ sung lại kiến thức, qua đó có thể theo
+                                                được chương trình trên lớp. Trợ giảng luôn sẵn sàng hỗ trợ kể cả khi học sinh đã theo học trên lớp.</p>
+                                        </div>
+                                    </div>
+                                </div> <!-- card -->
+                                <div class="card">
+                                    <div class="card-header" id="headingFive">
+                                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFive"
+                                            aria-expanded="false" aria-controls="collapseFive">Các trợ giảng là ai?</a>
+                                    </div>
+                                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p class="text">Các trợ giảng tại Vật Lý Siêu Nhẩm đều là những cựu học
+                                                sinh xuất sắc, thủ khoa Thành phố Hà Nội, các trường cấp 3 top
+                                                đầu tại Hà Nội. Tất cả trợ giảng đều được đào tạo kỹ năng chuyên
+                                                môn sư phạm và mục tiêu trở thành giáo viên. Đặc biệt được mọi học sinh
+                                                yêu quý bởi gần gũi và thân thiện.</p>
+                                        </div>
+                                    </div>
+                                </div> <!-- card -->
+
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">Học Online liệu có chất
+                                            lượng như học Offline?</a>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p class="text">Trong thời điểm dịch hiện tại, việc học online là một điều
+                                                không thể tránh khỏi, nhưng Vật Lý Siêu Nhẩm sẽ đảm bảo:</p>
+                                            <ul>
+                                                <li><i class="lni lni-star-filled text-primary"></i> Bài giảng được đầu
+                                                    tư <b>chất lượng</b> kèm các thiết bị giảng dạy hiện đại.</li>
+                                                <li><i class="lni lni-star-filled text-primary"></i> Học sinh sẽ được
+                                                    <b>đầy đủ</b> bộ video bài giảng.
+                                                </li>
+                                                <li><i class="lni lni-star-filled text-primary"></i> Mỗi buổi học đều có
+                                                    điểm danh, kiểm tra vở ghi và BTVN đầy đủ.</li>
+                                                <li><i class="lni lni-star-filled text-primary"></i> Hàng tuần sẽ có
+                                                    buổi LIVESTREAM chữa BTVN với các câu <b>vận dụng</b> và <b>VẬN DỤNG
+                                                        CAO</b> được quay để hỗ trợ học sinh tự học ở nhà.</li>
+                                                <li><i class="lni lni-star-filled text-primary"></i> Phụ huynh học sinh
+                                                    có thể theo dõi sát sao tình hình học của con tại trang web của
+                                                    <b>Vật Lý Siêu Nhẩm</b>.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div> <!-- card -->
+
+                                <!-- <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <a href="#" class="collapsed" data-toggle="collapse"
+                                            data-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">Trung tâm có bao nhiêu cơ sở?</a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            
+                                            <p class="text">Trung tâm có 5 Cơ sở:<br>
+                                                </p>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div> <!-- faq accordion -->
+                    </div> <!-- faq content -->
+                </div>
+                <div class="col-lg-7">
+                    <div class="about-slider text-center">
+                        <div class="about-image mt-50">
+                            <img src="assets\images\facilities\3.jpg" alt="about">
+                            <em>Phòng học tại trung tâm</em>
+                        </div> <!-- faq image -->
+                        <div class="about-image mt-50">
+                            <img src="assets\images\facilities\15.jpg" alt="about">
+                            <em>Tặng toàn bộ video bài giảng được đầu tư kỹ lưỡng giúp học sinh tự học</em>
+                        </div> <!-- faq image -->
+                        <div class="about-image mt-50">
+                            <img src="assets\images\facilities\14.jpg" alt="about">
+                            <em>Web luyện đề online mọi lúc mọi nơi</em>
+                        </div> <!-- faq image -->
+                        <div class="about-image mt-50">
+                            <img src="assets\images\facilities\16.jpg" alt="about">
+                            <em>Giáo trình được soạn kỹ lưỡng từng chương, kèm bài tập gắn mã QR video giải chi tiết</em>
+                        </div> <!-- faq image -->
+                        <div class="about-image mt-50">
+                            <img src="assets\images\facilities\2.jpg" alt="about">
+                            <em>Trợ giảng tổ chức kiểm tra chất lượng định kỳ</em>
+                        </div> <!-- faq image -->
+                        <div class="about-image mt-50">
+                            <img src="assets\images\facilities\1.jpg" alt="about">
+                            <em>Trợ giảng kiểm tra vở ghi và bài tập về nhà</em>
+                        </div> <!-- faq image -->
+                        <div class="about-image mt-50">
+                            <img src="assets\images\facilities\12.jpg" alt="about">
+                            <em>Phẩn thưởng khuyến khích cho các bạn đạt kết quả cao</em>
+                        </div> <!-- faq image -->
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <section id="team-teacher" class="team-area pt-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10">
+                    <div class="section-title text-center">
+                        <h3 class="title text-primary"><i class="lni lni-users"></i> GIÁO VIÊN</h3>
+                        <p class="text">Với nhiều năm kinh nghiệm dạy học và nghiệp vụ sư phạm xuất sắc</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="team-slider">
+                <div class="team-single shadow-sm">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s"
+                        data-wow-delay="0s">
+                        <div class="team-image">
+                            <img src="assets/images/portrait/thayquy.jpg" alt="Team">
+                        </div>
+                        <div class="team-content">
+                            <div class="team-social">
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/100004044380542/" target="_blank"><i class="lni lni-facebook-filled"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4 class="team-name"><a href="#">Thầy Trần Quý</a></h4>
+                            <span class="sub-title">Chuyên gia Vật Lý</span>
+                            <p class="highlight">15 năm kinh nghiệm giảng dạy
+                                <br>
+                                Nhà sáng lập thương hiệu Vật Lý Siêu Nhẩm</p>
+                        </div>
+                    </div> <!-- single team -->
+                </div>
+                <div class="team-single shadow-sm">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s"
+                        data-wow-delay="0s">
+                        <div class="team-image">
+                            <img src="assets/images/portrait/anhson.jpg" alt="Team">
+                        </div>
+                        <div class="team-content">
+                            <div class="team-social">
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/100007704491907/" target="_blank"><i class="lni lni-facebook-filled"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4 class="team-name"><a href="#">Thầy Lam Sơn</a></h4>
+                            <span class="sub-title">Giáo viên Vật Lý</span>
+                            <p class="highlight">Thầy giáo nhiệt huyết, bài giảng chuyên sâu với phương pháp giảng dạy: Siêu Nhẩm + Siêu Nhanh + Siêu Công Thức.</p>
+                        </div>
+                    </div> <!-- single team -->
+                </div>
+                <div class="team-single shadow-sm">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s"
+                        data-wow-delay="0s">
+                        <div class="team-image">
+                            <img src="assets/images/portrait/anhquan.jpg" alt="Team">
+                        </div>
+                        <div class="team-content">
+                            <div class="team-social">
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/100004306906786/"><i class="lni lni-facebook-filled"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4 class="team-name"><a href="https://www.facebook.com/100004306906786/" target="_blank">Thầy Văn Quân</a></h4>
+                            <span class="sub-title">Giáo viên Vật Lý</span>
+                            <p class="highlight">Thầy giáo với phong cách giảng dạy điềm đạm sâu sắc, đầy nhiệt huyết trong từng bài giảng</p>
+                        </div>
+                    </div> <!-- single team -->
+                </div>
+                <div class="team-single shadow-sm">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s"
+                        data-wow-delay="0s">
+                        <div class="team-image">
+                            <img src="assets/images/portrait/mom.jpg" alt="Team">
+                        </div>
+                        <div class="team-content">
+                            <div class="team-social">
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/100008986218027/" target="_blank"><i class="lni lni-facebook-filled"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4 class="team-name"><a href="#">Thầy Tuấn Anh</a></h4>
+                            <span class="sub-title">Giáo viên vật lý</span>
+                            <p class="highlight">Thủ Khoa Khối A1 Hà Nội Năm 2019 - 9.75 điểm Lý Kỳ thi THPT Quốc Gia</p>
+                        </div>
+                    </div> <!-- single team -->
+                </div>
+                <div class="team-single shadow-sm">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s"
+                        data-wow-delay="0s">
+                        <div class="team-image">
+                            <img src="assets/images/portrait/titan.jpg" alt="Team">
+                        </div>
+                        <div class="team-content">
+                            <div class="team-social">
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/100005892132483/" target="_blank"><i class="lni lni-facebook-filled"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4 class="team-name"><a href="#">Thầy Vũ Dũng</a></h4>
+                            <span class="sub-title">Giáo viên vật lý</span>
+                            <p class="highlight">Cựu học sinh chuyên Toán. Được nhiều học sinh yêu quý bởi tính cách dịu dàng và ân cần</p>
+                        </div>
+                    </div> <!-- single team -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <section id="team-mentor" class="team-area pt-50">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10">
+                    <div class="section-title text-center">
+                        <h3 class="title text-primary"><i class="lni lni-users"></i> TRỢ GIẢNG</h3>
+                        <p class="text">Đều là cựu học sinh xuất sắc, thủ khoa các trường top đầu tại Thành phố Hà Nội của Vật Lý Siêu Nhẩm</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="team-slider">
+                <div class="team-single shadow-sm">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s"
+                        data-wow-delay="0s">
+                        <div class="team-image">
+                            <img src="assets/images/portrait/longhip.jpg" alt="Team">
+                        </div>
+                        <div class="team-content">
+                            <div class="team-social">
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/100005071966435/" target="_blank"><i class="lni lni-facebook-filled"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4 class="team-name"><a href="#">Tài Long</a></h4>
+                            <span class="sub-title">Trợ giảng Vật Lý</span>
+                            <p class="highlight">Được học sinh bầu chọn là trợ giảng truyền cảm hứng</p>
+                        </div>
+                    </div> <!-- single team -->
+                </div>
+                <div class="team-single shadow-sm">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s"
+                        data-wow-delay="0s">
+                        <div class="team-image">
+                            <img src="assets/images/portrait/nam.jpg" alt="Team">
+                        </div>
+                        <div class="team-content">
+                            <div class="team-social">
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/100034069093635/" target="_blank"><i class="lni lni-facebook-filled"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4 class="team-name"><a href="#">Duy Nam</a></h4>
+                            <span class="sub-title">Trợ giảng Vật Lý</span>
+                            <p class="highlight">Trợ giảng chuyên hỗ trợ học sinh giải quyết các bài toán vận dụng cao</p>
+                        </div>
+                    </div> <!-- single team -->
+                </div>
+                <div class="team-single shadow-sm">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s"
+                        data-wow-delay="0s">
+                        <div class="team-image">
+                            <img src="assets/images/portrait/linh.jpg" alt="Team">
+                        </div>
+                        <div class="team-content">
+                            <div class="team-social">
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/100005778460040/" target="_blank"><i class="lni lni-facebook-filled"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4 class="team-name"><a href="#">Ngọc Linh</a></h4>
+                            <span class="sub-title">Trợ giảng Vật Lý</span>
+                            <p class="highlight">Được bầu chọn là trợ giảng thân thiện, là bạn của mọi học sinh</p>
+                        </div>
+                    </div> <!-- single team -->
+                </div>
+                <div class="team-single shadow-sm">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s"
+                        data-wow-delay="0s">
+                        <div class="team-image">
+                            <img src="assets/images/portrait/hieu.jpg" alt="Team">
+                        </div>
+                        <div class="team-content">
+                            <div class="team-social">
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/100013402984362/" target="_blank"><i class="lni lni-facebook-filled"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4 class="team-name"><a href="#">Minh Hiếu</a></h4>
+                            <span class="sub-title">Trợ giảng Vật Lý</span>
+                            <p class="highlight">Trợ giảng nhiệt tình luôn hỗ trợ các em 24/7</p>
+                        </div>
+                    </div> <!-- single team -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
 
     <!--====== PORTFOLIO PART START ======-->
 
-    <section id="portfolio" class="portfolio-area portfolio-two pb-100">
+    <section id="portfolio" class="portfolio-area portfolio-two pb-100 wow fadeInUp">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-10">
                     <div class="section-title text-center pb-10">
-                        <h3 class="title">THỜI KHÓA BIỂU</h3>
-                        <p class="text">Trợ giảng kèm trực tiếp miễn phí tới khi theo được lớp.</p>
+                        <h3 class="title"><i class="lni lni-layout"></i> THỜI KHÓA BIỂU</h3>
+                        <p class="text">Trợ giảng sẵn sàng hỗ trợ kèm tài liệu, bài giảng tới khi học sinh theo được lớp.</p>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
 
 
             <div class="portfolio-menu-2 text-center mt-50">
-                    <button data-filter="*" class="active">Mọi khối</button>
-                    <button data-filter=".branding-4">Khối 12</button>
-                    <button data-filter=".marketing-4">Khối 11</button>
-                    <button data-filter=".planning-4">Khối 10</button>
-                    <button data-filter=".research-4">Khối 9</button>
+                <button data-filter="*" class="active">Tất cả</button>
+                <button data-filter=".branding-4">Khối 12</button>
+                <button data-filter=".marketing-4">Khối 11</button>
+                <button data-filter=".planning-4">Khối 10</button>
+                <button data-filter=".research-4">Khối 9</button>
             </div> <!-- portfolio menu -->
 
 
@@ -379,244 +690,97 @@
 
     <!--====== PORTFOLIO PART ENDS ======-->
 
-    <!--====== PRINICNG START ======-->
-
-    <section id="services" class="pricing-area ">
+    <section class="call-action-area call-action-one">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-10">
-                    <div class="section-title text-center pb-25">
-                        <h3 class="title">ĐỘI NGŨ TRỢ GIẢNG</h3>
-                        <p class="text">Là thủ khoa đầu ra các trường các trường THPT top đầu Hà Nội</p>
-                    </div> <!-- section title -->
-                </div>
-            </div> <!-- row -->
-            <div class="col-12">
-                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-
-                    <div class="carousel-inner">
-                        <div class="carousel-item active mentor-slides">
-                            <div class="row">
-
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src="assets\images\avatar\mom.jpg">
-                                        <div class="card-body">
-                                            <h4 class="card-title">Đinh Tuấn Anh</h4>
-                                            <p class="card-text">Thủ khoa thành phố Hà Nội - Top 3 quốc gia cùng 9,75
-                                                điểm lý - luôn sẵn sàng chinh chiến bất kì bài vận dụng cao nào</p>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src="assets\images\avatar\titan.jpg">
-                                        <div class="card-body">
-                                            <h4 class="card-title">Vũ Đức Dũng</h4>
-                                            <p class="card-text">Cựu học sinh THPT chuyên Nguyễn Huệ, hiện đang theo học
-                                                khoa CNTT trường đại học Bách Khoa Hà Nội</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src="assets\images\avatar\ngoc-linh.jpg">
-                                        <div class="card-body">
-                                            <h4 class="card-title">Nguyễn Ngọc Linh</h4>
-                                            <p class="card-text">Top 3 đầu ra THPT Thăng Long - Hà Nội, với môn lý đạt
-                                                9,25 điểm với phong cách dạy học cực kì nhiệt huyết</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="carousel-item mentor-slides">
-                            <div class="row">
-
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src="assets\images\avatar\hieu.jpg">
-                                        <div class="card-body">
-                                            <h4 class="card-title">Mai Tài Long</h4>
-                                            <p class="card-text">Là một trợ giảng truyền cảm hứng, đã giúp đỡ rất nhiều
-                                                học viên đạt điểm tốt từ mất gốc</p>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src="assets\images\avatar\hieu.jpg">
-                                        <div class="card-body">
-                                            <h4 class="card-title">Vũ Duy Nam</h4>
-                                            <p class="card-text">Cựu học sinh THPT Thăng Long - Hà Nội, từng tham gia
-                                                nhiều cuộc thi học sinh giỏi. Đã xuất sắc đạt 9 điểm Lý trong kì thi
-                                                THPTQG</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src="assets\images\avatar\hieu.jpg">
-                                        <div class="card-body">
-                                            <h4 class="card-title">Dương Minh Hiếu</h4>
-                                            <p class="card-text">Đạt số điểm cao trong kì thi THPTQG, hiện đang theo học
-                                                tại trường đại học Bách Khoa</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
+            <div class="row align-items-center call-action-content">
+                <div class="col-xl-8 col-lg-8">
+                    <div class="call-action-text mt-50">
+                        <h2 class="action-title">Mất gốc môn Lý?</h2>
+                        <p class="text">Hỗ trợ miễn phí đến khi đuổi kịp chương trình.</p>
                     </div>
                 </div>
-            </div>
-            <div class="text-right">
-                <a class="btn btn-success mb-3" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                    <i class="lni lni-arrow-left"></i>
-                </a>
-                <a class="btn btn-success mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="next">
-                    <i class="lni lni-arrow-right"></i>
-                </a>
-            </div>
-        </div>
-        </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
-
-    <!--====== PRINICNG ENDS ======-->
-
-    <!--====== ABOUT PART START ======-->
-
-    <section id="about" class="about-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="faq-content mt-45">
-                        <div class="about-title">
-                            <h6 class="sub-title">CHI TIẾT</h6>
-                            <h4 class="title">Một Số Câu Hỏi Thường Gặp <br> Về Trung Tâm</h4>
-                        </div> <!-- faq title -->
-                        <div class="about-accordion">
-                            <div class="accordion" id="accordionExample">
-                                <div class="card">
-                                    <div class="card-header" id="headingOne">
-                                        <a href="#" data-toggle="collapse" data-target="#collapseOne"
-                                            aria-expanded="true" aria-controls="collapseOne">Chi phí học kèm riêng với
-                                            trợ giảng?</a>
-                                    </div>
-
-                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                        data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p class="text">Học kèm riêng cùng với trợ giảng để được giải đáp mọi thắc
-                                                mắc liên quan tới bài học hoàn toàn MIỄN PHÍ khi đã tham gia lớp học</p>
-                                        </div>
-                                    </div>
-                                </div> <!-- card -->
-                                <div class="card">
-                                    <div class="card-header" id="headingTwo">
-                                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                                            aria-expanded="false" aria-controls="collapseTwo">Có khóa học online hay
-                                            không?</a>
-                                    </div>
-                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                        data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p class="text">Khóa học VLSN-PRO bao gồm tất cả bài giảng cả năm cùng với
-                                                trang web làm bài tập, bài thi thử online, tự động chấm điểm và đánh giá
-                                                lỗ hổng kiến thức, từ đó giúp học sinh tự đánh giá được kiến thức bản
-                                                thân, đội trợ giảng sẵn sàng hỗ trợ học viên khi gặp khó khăn trong học
-                                                tập.</p>
-                                        </div>
-                                    </div>
-                                </div> <!-- card -->
-                                <div class="card">
-                                    <div class="card-header" id="headingThree">
-                                        <a href="#" class="collapsed" data-toggle="collapse"
-                                            data-target="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">Trung tâm có bao nhiêu cơ sở?</a>
-                                    </div>
-                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                        data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p class="text">Trung tâm có 5 Cơ sở:<br>
-                                                CS1: Số 73, Lê Lợi - TT Vân Đình - Ứng Hòa - HN<br>
-                                                CS2: Tầng 3, số 17, Trần Đăng Ninh - TT Vân Đình - Ứng Hòa - HN<br>
-                                                CS3: Đầu Cầu Tế Tiêu - Hòa Xá - Ứng Hòa - Hà Nội<br>
-                                                CS4: Đối diện trường Tiểu học Lê Lợi - Hà Cầu - Hà Đông - HN<br>
-                                                CS5: Tầng 3, Số 10 - Tạ Quang Bửu - Bách Khoa - HN</p>
-                                        </div>
-                                    </div>
-                                </div> <!-- card -->
-                                <div class="card">
-                                    <div class="card-header" id="headingFore">
-                                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFore"
-                                            aria-expanded="false" aria-controls="collapseFore">Vào sau liệu có theo kịp
-                                            lớp không?</a>
-                                    </div>
-                                    <div id="collapseFore" class="collapse" aria-labelledby="headingFore"
-                                        data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p class="text">Học viên tham gia muộn sẽ được trợ giảng kèm riêng MIỄN PHÍ
-                                                để bổ trợ lại kiến thức qua đó có thể theo được lớp mà không gặp quá
-                                                nhiều khó khăn</p>
-                                        </div>
-                                    </div>
-                                </div> <!-- card -->
-                                <div class="card">
-                                    <div class="card-header" id="headingFive">
-                                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFive"
-                                            aria-expanded="false" aria-controls="collapseFive">Trợ giảng kèm học viên ở
-                                            đâu?</a>
-                                    </div>
-                                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
-                                        data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p class="text">Trợ giảng hỗ trợ học viên online và offline trong trường hợp
-                                                dịch đã được kiểm soát. Nếu dịch chưa được kiểm soát, trợ giảng sẽ hỗ
-                                                trợ học viên online qua ZOOM</p>
-                                        </div>
-                                    </div>
-                                </div> <!-- card -->
-                            </div>
-                        </div> <!-- faq accordion -->
-                    </div> <!-- faq content -->
-                </div>
-                <div class="col-lg-7">
-                    <div class="about-image mt-50">
-                        <img src="assets\images\facilities\3.jpg" alt="about">
-                    </div> <!-- faq image -->
+                <div class="col-xl-4 col-lg-4">
+                    <div class="call-action-btn mt-2 rounded-buttons text-center text-lg-end zoom-effect">
+                        <a href="#lienhe" class="main-btn rounded-three">Đăng Ký
+                            Ngay</a>
+                    </div>
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
-
-    <!--====== ABOUT PART ENDS ======-->
-
     <!--====== TESTIMONIAL PART START ======-->
 
-    <section id="testimonial" class="testimonial-area">
+    <section class="result-area">
+        <div class="row justify-content-center mb-2">
+            <div class="col-lg-6 col-md-10">
+                <div class="section-title text-center">
+                    <h3 class="title text-white"><i class="lni lni-certificate"></i> KẾT QUẢ KHÓA TRƯỚC</h3>
+                    <p class="text-white">Bảng Vàng Thủ Khoa Vật Lý Siêu Nhẩm Năm 2021</p>
+                </div> <!-- section title -->
+            </div>
+        </div> <!-- row -->
+        <div class="container">
+            <img src="assets/images/result/thukhoa.jpg" alt="" class="w-100">
+        </div>
+        <div class="row justify-content-center mt-5 mb-2">
+            <div class="col-lg-6 col-md-10">
+                <div class="section-title text-center">
+                    <p class="text text-white">Học sinh tại <b>Vật Lý Siêu Nhẩm</b> đạt kết quả cao tại các bài kiểm tra trên lớp và kỳ thi đại học.</p>
+                </div> <!-- section title -->
+            </div>
+        </div> <!-- row -->
+            <div class="result-slider">
+                <div class="result-single">
+                    <img src="assets/images/result/01.jpg" alt="">
+                </div>
+                <div class="result-single">
+                    <img src="assets/images/result/02.jpg" alt="">
+                </div>
+                <div class="result-single">
+                    <img src="assets/images/result/03.jpg" alt="">
+                </div>
+                <div class="result-single">
+                    <img src="assets/images/result/04.jpg" alt="">
+                </div>
+                <div class="result-single">
+                    <img src="assets/images/result/05.jpg" alt="">
+                </div>
+                <div class="result-single">
+                    <img src="assets/images/result/06.jpg" alt="">
+                </div>
+                <div class="result-single">
+                    <img src="assets/images/result/07.jpg" alt="">
+                </div>
+                <div class="result-single">
+                    <img src="assets/images/result/08.jpg" alt="">
+                </div>
+                <div class="result-single">
+                    <img src="assets/images/result/09.jpg" alt="">
+                </div>
+                <div class="result-single">
+                    <img src="assets/images/result/10.jpg" alt="">
+                </div>
+                <div class="result-single">
+                    <img src="assets/images/result/11.jpg" alt="">
+                </div>
+
+        </div>
+
+    </section>
+
+    <section id="testimonial" class="testimonial-area wow fadeInUp">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-xl-5 col-lg-6">
                     <div class="testimonial-left-content mt-45">
                         <h6 class="sub-title">Cảm nhận học viên</h6>
-                        <h4 class="title">Những học viên đã theo học nói gì <br>về trung tâm</h4>
-                        <ul class="testimonial-line">
+                        <h4 class="title"><i class="lni lni-popup"></i> Những học viên đã theo học nói gì về Vật Lý Siêu Nhẩm</h4>
+                        <!-- <ul class="testimonial-line">
                             <li></li>
                             <li></li>
                             <li></li>
                             <li></li>
-                        </ul>
+                        </ul> -->
                         <p class="text">Cảm nhận của một số cựu học sinh đã theo học trung tâm, đạt được kết quả cao sau
                             khi theo học.</p>
                     </div> <!-- testimonial left content -->
@@ -795,198 +959,76 @@
 
     <!--====== TEAM START ======-->
 
-    <section id="team" class="team-area pt-120 pb-130">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-10">
-                    <div class="section-title text-center pb-30">
-                        <h3 class="title">GIÁO VIÊN</h3>
-                        <p class="text">Với nhiều năm kinh nghiệm dạy học với nghiệp vụ sư phạm xuất sắc</p>
-                    </div> <!-- section title -->
-                </div>
-            </div> <!-- row -->
-            <div class="row">
-                <div class="col-lg">
-                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s"
-                        data-wow-delay="0s">
-                        <div class="team-image">
-                            <img src="assets/images/team-1.jpg" alt="Team">
-                        </div>
-                        <div class="team-content">
-                            <div class="team-social">
-                                <ul class="social">
-                                    <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                            <h4 class="team-name"><a href="#">Trần Quang Quý</a></h4>
-                            <span class="sub-title">Chuyên gia Vật Lý</span>
-                            <p>15 năm kinh nghiệm giảng dạy
-                                Nhà sáng lập thương hiệu Vật Lý Siêu Nhẩm</p>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
-                <div class="col-lg">
-                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s"
-                        data-wow-delay="0s">
-                        <div class="team-image">
-                            <img src="assets/images/team-2.jpg" alt="Team">
-                        </div>
-                        <div class="team-content">
-                            <div class="team-social">
-                                <ul class="social">
-                                    <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                            <h4 class="team-name"><a href="#">Thầy Văn Quân</a></h4>
-                            <span class="sub-title">Giáo viên Vật Lý</span>
-                            <p>Sáng tạo nhiều phương pháp học Lý</p>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
-                <div class="col-lg">
-                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s"
-                        data-wow-delay="0s">
-                        <div class="team-image">
-                            <img src="assets/images/team-3.jpg" alt="Team">
-                        </div>
-                        <div class="team-content">
-                            <div class="team-social">
-                                <ul class="social">
-                                    <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                            <h4 class="team-name"><a href="#">Thầy Tuấn Anh</a></h4>
-                            <span class="sub-title">Giáo viên vật lý</span>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
-                <div class="col-lg">
-                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s"
-                        data-wow-delay="0s">
-                        <div class="team-image">
-                            <img src="assets/images/team-3.jpg" alt="Team">
-                        </div>
-                        <div class="team-content">
-                            <div class="team-social">
-                                <ul class="social">
-                                    <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                            <h4 class="team-name"><a href="#">Thầy Vũ Dũng</a></h4>
-                            <span class="sub-title">Giáo viên vật lý</span>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
-
     <!--====== TEAM  ENDS ======-->
 
     <!--====== CONTACT PART START ======-->
 
-    <section id="contact" class="contact-area">
+    <section id="lienhe" class="contact-area wow fadeInUp">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-10">
                     <div class="section-title text-center pb-25">
-                        <h3 class="title">LỚP HỌC</h3>
-                        <p class="text">Các lớp học tại trung tâm</p>
+                        <h3 class="title"><i class="lni lni-phone"></i> LIÊN HỆ</h3>
+                        <p class="text">Đăng ký sớm để trung tâm sắp xếp trợ giảng và tài liệu, video bài giảng sớm nhất có thể!</p>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
-            <div class="row justify-content-center">
-                <div class="col-lg">
-                    <div class="pricing-style mt-30">
+            <div class="row row-cols-4 row-cols-md-2 justify-content-center">
+                <div class="col mb-2">
+                    <div class="pricing-style h-100">
                         <div class="pricing-icon text-center">
-                            <img src="assets/images/basic.svg" alt="">
+                            <img src="assets/images/icon/phone.png" alt="">
                         </div>
                         <div class="pricing-header text-center">
-                            <h5 class="sub-title">Lớp 9</h5>
-                            <p class="month">Chưa mở lớp</p>
-                        </div>
-                        <div class="pricing-list">
-                            <ul>
-                                <p><i class="lni lni-check-mark-circle"></i>Giúp các em học tốt môn Lý chuẩn bị cho các
-                                    bài kiểm tra trên trường và thi vào cấp 3.</p>
-                            </ul>
+                            <h5 class="sub-title">ĐƯỜNG DÂY NÓNG</h5>
+                            <p class="month">0978 650 726</p>
                         </div>
                         <div class="pricing-btn rounded-buttons text-center">
-                            <a class="main-btn rounded-one" href="#">ĐĂNG KÝ</a>
+                            <a class="main-btn rounded-one zoom-effect" href="tel:+84978650726">GỌI NGAY</a>
                         </div>
                     </div> <!-- pricing style one -->
                 </div>
 
-                <div class="col-lg">
-                    <div class="pricing-style mt-30">
+                <div class="col mb-2">
+                    <div class="pricing-style h-100">
                         <div class="pricing-icon text-center">
-                            <img src="assets/images/pro.svg" alt="">
+                            <img src="assets/images/icon/facebook.png" alt="">
                         </div>
                         <div class="pricing-header text-center">
-                            <h5 class="sub-title">Lớp 10</h5>
-                            <p class="month">2 lớp</p>
-                        </div>
-                        <div class="pricing-list">
-                            <ul>
-                                <p><i class="lni lni-check-mark-circle"></i>Giúp các em làm quen với vật lý chương trình
-                                    phổ thông, đạt kết quả cao trong bài kiểm tra giữa kỳ & cuối kỳ trên trường.</p>
-                            </ul>
+                            <h5 class="sub-title">FACEBOOK</h5>
+                            <p class="month">Tư vấn miễn phí cho phụ huynh & học sinh</p>
                         </div>
                         <div class="pricing-btn rounded-buttons text-center">
-                            <a class="main-btn rounded-one" href="#">ĐĂNG KÝ</a>
+                            <a class="main-btn rounded-one zoom-effect" href="https://www.facebook.com/Vatlysieunham" target="_blank">NHẮN TIN NGAY</a>
                         </div>
                     </div> <!-- pricing style one -->
                 </div>
 
-                <div class="col-lg">
-                    <div class="pricing-style mt-30">
+                <div class="col mb-2">
+                    <div class="pricing-style h-100">
                         <div class="pricing-icon text-center">
-                            <img src="assets/images/enterprise.svg" alt="">
+                            <img src="assets/images/icon/groups.png" alt="">
                         </div>
                         <div class="pricing-header text-center">
-                            <h5 class="sub-title">Lớp 11</h5>
-                            <p class="month">3 lớp</p>
-                        </div>
-                        <div class="pricing-list">
-                            <ul>
-                                <p><i class="lni lni-check-mark-circle"></i>Giúp các em đạt kết quả tốt trong kỳ thi
-                                    giữa kỳ & cuối kỳ, chuẩn bị nền tảng vững chắc cho kỳ thi đại học</p>
-                            </ul>
+                            <h5 class="sub-title">GROUP FACEBOOK</h5>
+                            <p class="month">Giải đáp thắc mắc môn Vật Lý miễn phí cho học sinh</p>
                         </div>
                         <div class="pricing-btn rounded-buttons text-center">
-                            <a class="main-btn rounded-one" href="#">ĐĂNG KÝ</a>
+                            <a class="main-btn rounded-one zoom-effect" href="https://www.facebook.com/groups/giaimoibaily" target="_blank">THAM GIA NGAY</a>
                         </div>
                     </div> <!-- pricing style one -->
                 </div>
-                <div class="col-lg">
-                    <div class="pricing-style mt-30">
+                <div class="col mb-2">
+                    <div class="pricing-style h-100">
                         <div class="pricing-icon text-center">
-                            <img src="assets/images/enterprise.svg" alt="">
+                            <img src="assets/images/icon/earth.png" alt="">
                         </div>
                         <div class="pricing-header text-center">
-                            <h5 class="sub-title">Lớp 12</h5>
-                            <p class="month">4 lớp</p>
-                        </div>
-                        <div class="pricing-list">
-                            <ul>
-                                <p><i class="lni lni-check-mark-circle"></i> Trang bị cho các em kiến thức, kỹ năng cho
-                                    kỳ thi THPT Quốc Gia tháng 7/2022 với chiến lược ôn luyện hiệu quả nhất..</p>
-                            </ul>
+                            <h5 class="sub-title">WEB THI THỬ</h5>
+                            <p class="month">Ngân hàng đề online cập nhật liên tục và lời giải chi tiết</p>
                         </div>
                         <div class="pricing-btn rounded-buttons text-center">
-                            <a class="main-btn rounded-one" href="#">ĐĂNG KÝ</a>
+                            <a class="main-btn rounded-one zoom-effect" href="http://lamdevlsn.herokuapp.com/" target="_blank">XEM NGAY</a>
                         </div>
                     </div> <!-- pricing style one -->
                 </div>
@@ -994,82 +1036,44 @@
         </div> <!-- container -->
     </section>
 
-    <section class="call-action-area call-action-one pt-50 pb-100 mb-50">
-        <div class="container">
-            <div class="row align-items-center call-action-content">
-                <div class="col-xl-8 col-lg-8">
-                    <div class="call-action-text mt-50">
-                        <h2 class="action-title">Mất gốc môn Lý?</h2>
-                        <p class="text">Hỗ trợ miễn phí đến khi đuổi kịp chương trình.</p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4">
-                    <div class="call-action-btn mt-50 rounded-buttons text-lg-end">
-                        <a href="https://ayroui.com/demos/call-to-action#0" class="main-btn rounded-three">Đăng Ký Ngay</a>
-                    </div>
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
+    
 
     <!--====== CONTACT PART ENDS ======-->
 
-    <section id="pricing" class="team-area pt-120 pb-130">
+    <section id="pricing" class="team-area">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-10">
                     <div class="section-title text-center pb-30">
-                        <h3 class="title">LIÊN HỆ</h3>
-                        <!-- <p class="text"></p> -->
+                        <h3 class="title"><i class="lni lni-map-marker"></i> ĐỊA CHỈ</h3>
+                        <p class="text">Vật Lý Siêu Nhẩm có 5 cơ sở tại Hà Nội</p>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="contact-map mt-30">
+                <div class="col-lg-3">
+                    <ul>
+                        <li><i class="lni lni-graduation"></i> Tầng 3, Số 10 - Tạ Quang Bửu - Bách Khoa - HN</li>
+                        <li><i class="lni lni-graduation"></i> Tầng 3, số 17, Trần Đăng Ninh - TT Vân Đình - Ứng Hòa - HN</li>
+                        <li><i class="lni lni-graduation"></i> Đầu Cầu Tế Tiêu - Hòa Xá - Ứng Hòa - Hà Nội</li>
+                        <li><i class="lni lni-graduation"></i> Đối diện trường Tiểu học Lê Lợi - Hà Cầu - Hà Đông - HN</li>
+                        <li><i class="lni lni-graduation"></i> Số 73, Lê Lợi - TT Vân Đình - Ứng Hòa - HN</li>
+                        <li><i class="lni lni-world"></i> Ngoài ra Vật Lý Siêu Nhẩm còn có khóa học online trực tiếp qua các nền tảng Zoom Meeting với hỗ trợ sát sao như học offline.</li>
+                        
+
+                    </ul>
+                </div>
+                <div class="col-lg-9">
+                    <div class="contact-map">
                         <iframe id="gmap_canvas"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232.79289965183156!2d105.84688752468489!3d21.00520451755026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad7ac300674d%3A0xb592f5aaf666d1a3!2zVHJ1bmcgVMOibSBHacOhbyBE4bulYyBUQ1QgLSBUaOG6p3kgQ2h1bmcgVG_DoW4!5e0!3m2!1svi!2s!4v1633662552885!5m2!1svi!2s"
                             frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                     </div> <!-- row -->
                 </div>
             </div> <!-- row -->
-            <div class="contact-info pt-30">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-contact-info contact-color-1 mt-30 d-flex ">
-                            <div class="contact-info-icon">
-                                <i class="lni lni-map-marker"></i>
-                            </div>
-                            <div class="contact-info-content media-body">
-                                <p class="text"> Tầng 3<br>Số 10 Tạ Quang Bửu - Hà Nội.</p>
-                            </div>
-                        </div> <!-- single contact info -->
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-contact-info contact-color-3 mt-30 d-flex ">
-                            <div class="contact-info-icon">
-                                <i class="lni lni-facebook"></i>
-                            </div>
-                            <div class="contact-info-content media-body">
-                                <p class="text">Facebook:</p>
-                                <a href="https://www.facebook.com/HocLyThayQuy/">Hỗ trợ giải đáp mọi thắc mắc</a>
-                            </div>
-                        </div> <!-- single contact info -->
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-contact-info contact-color-2 mt-30 d-flex ">
-                            <div class="contact-info-icon">
-                                <i class="lni lni-phone"></i>
-                            </div>
-                            <div class="contact-info-content media-body">
-                                <p class="text">Mrs Thủy:</p>
-                                <a href="tel:0978 650 726">0978 650 726</a>
-                            </div>
-                        </div> <!-- single contact info -->
-                    </div>
-                </div> <!-- row -->
+            
             </div> <!-- contact info -->
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-12">
                     <div class="contact-wrapper form-style-two pt-115">
                         <h4 class="contact-title pb-10"><i class="lni lni-pencil-alt"></i> Đăng Ký Ngay</h4>
@@ -1083,7 +1087,7 @@
                                             <input name="name" type="text" placeholder="Name">
                                             <i class="lni lni-user"></i>
                                         </div>
-                                    </div> <!-- form input -->
+                                    </div> 
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-input mt-25">
@@ -1092,7 +1096,7 @@
                                             <input type="number" name="phonge" placeholder="Số Điện Thoại">
                                             <i class="lni lni-phone"></i>
                                         </div>
-                                    </div> <!-- form input -->
+                                    </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-input mt-25">
@@ -1101,173 +1105,83 @@
                                             <input type="email" name="email" placeholder="Email">
                                             <i class="lni lni-envelope"></i>
                                         </div>
-                                    </div> <!-- form input -->
+                                    </div> 
                                 </div>
                                 <p class="form-message"></p>
                                 <div class="col-md-12">
                                     <div class="form-input light-rounded-buttons mt-30">
                                         <button class="main-btn light-rounded-two">Send Message</button>
-                                    </div> <!-- form input -->
+                                    </div> 
                                 </div>
-                            </div> <!-- row -->
+                            </div>
                         </form>
-                    </div> <!-- contact wrapper form -->
+                    </div> 
                 </div>
-            </div> <!-- row -->
+            </div> -->
         </div> <!-- container -->
     </section>
 
-    <!--====== FOOTER PART START ======-->
-
-    <section class="footer-area">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-7 col-sm-9">
-
-                    <!-- Content -->
-                    <img src="assets\images\favicon\ms-icon-144x144.png" alt="logo">
-                    <p>Chúng tôi đem đến cho học sinh tất cả những phương pháp kiến thức tốt nhất để giúp các bạn học
-                        sinh giải quyết các vấn đề với môn Vật Lý. Vật Lý chưa bao giờ dễ dàng đến vậy
-                    </p>
-
-                </div>
-                <!-- Grid column -->
-
-                <hr class="clearfix w-100 d-md-none pb-3">
-
-                <!-- Grid column -->
-                <div class="col-lg-4 col-md-7 col-sm-9">
-
-                    <!-- Links -->
-                    <h5 class="text-uppercase footer-title">Hình ảnh tại VLSN</h5>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="single-portfolio" style="margin: 5px">
-                                    <div class="portfolio-image">
-                                        <img src="assets\images\facilities\10.jpg" alt="">
-                                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                            <div class="portfolio-content">
-                                                <div class="portfolio-icon">
-                                                    <a class="image-popup" href="assets\images\facilities\10.jpg"><i
-                                                            class="lni lni-zoom-in"></i></a>
-                                                    <img src="assets/images/portfolio/shape.svg" alt="shape"
-                                                        class="shape">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="single-portfolio" style="margin: 5px">
-                                    <div class="portfolio-image">
-                                        <img src="assets\images\facilities\8.jpg" alt="">
-                                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                            <div class="portfolio-content">
-                                                <div class="portfolio-icon">
-                                                    <a class="image-popup" href="assets\images\facilities\10.jpg"><i
-                                                            class="lni lni-zoom-in"></i></a>
-                                                    <img src="assets/images/portfolio/shape.svg" alt="shape"
-                                                        class="shape">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="single-portfolio" style="margin: 5px">
-                                    <div class="portfolio-image">
-                                        <img src="assets\images\facilities\6.jpg" alt="">
-                                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                            <div class="portfolio-content">
-                                                <div class="portfolio-icon">
-                                                    <a class="image-popup" href="assets\images\facilities\10.jpg"><i
-                                                            class="lni lni-zoom-in"></i></a>
-                                                    <img src="assets/images/portfolio/shape.svg" alt="shape"
-                                                        class="shape">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="single-portfolio" style="margin: 5px">
-                                    <div class="portfolio-image">
-                                        <img src="assets\images\facilities\5.jpg" alt="">
-                                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                            <div class="portfolio-content">
-                                                <div class="portfolio-icon">
-                                                    <a class="image-popup" href="assets\images\facilities\10.jpg"><i
-                                                            class="lni lni-zoom-in"></i></a>
-                                                    <img src="assets/images/portfolio/shape.svg" alt="shape"
-                                                        class="shape">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="single-portfolio" style="margin: 5px">
-                                    <div class="portfolio-image">
-                                        <img src="assets\images\facilities\12.jpg" alt="">
-                                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                            <div class="portfolio-content">
-                                                <div class="portfolio-icon">
-                                                    <a class="image-popup" href="assets\images\facilities\10.jpg"><i
-                                                            class="lni lni-zoom-in"></i></a>
-                                                    <img src="assets/images/portfolio/shape.svg" alt="shape"
-                                                        class="shape">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="single-portfolio" style="margin: 5px">
-                                    <div class="portfolio-image">
-                                        <img src="assets\images\facilities\7.jpg" alt="">
-                                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                            <div class="portfolio-content">
-                                                <div class="portfolio-icon">
-                                                    <a class="image-popup" href="assets\images\facilities\10.jpg"><i
-                                                            class="lni lni-zoom-in"></i></a>
-                                                    <img src="assets/images/portfolio/shape.svg" alt="shape"
-                                                        class="shape">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+    <footer class="footer-area footer-two footer-dark-two">
+        <div class="footer-widget">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-logo-support d-md-flex align-items-end justify-content-between">
+                            <div class="footer-logo d-flex align-items-end">
+                                <a class="mt-30" href="#"><img src="assets/images/logo-vlsn-hq.png" alt="Logo" style="width: 100px;"></a>
+                            </div> <!-- footer logo -->
+                        </div> <!-- footer logo support -->
                     </div>
-                </div>
-
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-lg-4 col-md-7 col-sm-9">
-
-                    <!-- Links -->
-
-                    <iframe
-                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FVatlysieunham%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=351126230093141"
-                        width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                        allowfullscreen="true"
-                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-
-                </div>
-                <!-- Grid column -->
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
-
-
+                </div> <!-- row -->
+                <div class="row">
+                    <div class="col-xl-6 col-sm-12">
+                        <div class="footer-support ">
+                            <span class="number">0978 650 726</span>
+                            <span class="mail">contact@vatlysieunham.edu.vn</span>
+                        </div>
+                        <ul class="social">
+                            <li><a href="https://www.facebook.com/Vatlysieunham" target="_blank"><i class="lni lni-facebook-oval"></i></a></li>
+                            <li><a href="https://m.me/Vatlysieunham" target="_blank"><i class="lni lni-facebook-messenger"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCeJKtPNOdWnp9ya5jKBiu2w" target="_blank"><i class="lni lni-youtube"></i></a></li>
+                            <li><a href="https://www.facebook.com/ngdatuananh/" target="_blank"><i class="lni lni-user"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-sm-6">
+                        <div class="footer-link">
+                            <h6 class="footer-title">Sản Phẩm Của VLSN IT</h6>
+                            <ul>
+                                <li><a href="https://vatlysieunham.herokuapp.com/" target="_blank">Web Quản Lý Học Tập</a></li>
+                                <li><a href="http://lamdevlsn.herokuapp.com/" target="_blank">Web Luyện Đề</a></li>
+                            </ul>
+                        </div> <!-- footer link -->
+                    </div>
+                    <div class="col-xl-3 col-sm-6">
+                        <div class="footer-link">
+                            <h6 class="footer-title">Trang Web Liên Quan</h6>
+                            <ul>
+                                <li><a href="https://www.lasedu.vn/" target="_blank">Las Edu</a></li>
+                                <li><a href="https://www.vatlysieunham.com/" target="_blank">Web Khóa Học</a></li>
+                                <li><a href="https://www.facebook.com/GV.VAT.LYY" target="_blank">Facebook Thầy Trần Quý</a></li>
+                                <li><a href="https://www.facebook.com/HocLyThayQuy/" target="_blank">Fanpage Học Lý Thầy  Quý</a></li>
+                            </ul>
+                        </div> <!-- footer link -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer widget -->
+        
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright text-center">
+                            <p class="text">Copyright © 2022 VLSN IT. All Rights Reserved</p>
+                        </div> <!-- copyright -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer copyright -->
+    </footer>
 
     <!--====== FOOTER PART ENDS ======-->
 
@@ -1306,9 +1220,12 @@
 
     <!--====== Slick js ======-->
     <script src="assets/js/slick.min.js"></script>
+    <!-- <script src="assets/js/tiny-slider.js"></script> -->
 
     <!--====== Magnific Popup js ======-->
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+
 
     <!--====== Ajax Contact js ======-->
     <script src="assets/js/ajax-contact.js"></script>
@@ -1321,9 +1238,13 @@
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/scrolling-nav.js"></script>
 
+    
+
     <!--====== Main js ======-->
+    <script src="assets/js/wow.js"></script>
     <script src="assets/js/main.js"></script>
 
+    
 </body>
 
 </html>
