@@ -1,3 +1,6 @@
+.navbar-area {
+	padding: 0;
+}
 .navbar-brand > img {
 	width: 50px;
 }
@@ -39,6 +42,14 @@
 
 .carousel-item .slider-image-box {
 	z-index: 0;
+}
+
+.slider-content {
+	padding-top: 200px;
+}
+
+.slider-content .text {
+	margin-top: -30px;
 }
 
 .mentor-slides{
@@ -110,7 +121,7 @@
 .about-area .slick-arrow, .result-area .slick-arrow {
 	position: absolute;
 	z-index: 9;
-	top: 50%;
+	top: 40%;
 	font-size: 22px;
     cursor: pointer;
     color: #a4a4a4;
@@ -162,19 +173,30 @@
 @media (max-width: 768px) {
 	.slider-content {
 		padding-top: 100px;
-		padding-bottom: 420px;
+		padding-bottom: 250px;
 	}
 	.slider-content .title {
-		font-size: 50px;
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.slider-content .title .highlight {
+		font-size: 40px;
 		line-height: 50px;
 	}
-	/* .slider-image-box {
-
-		padding-bottom: 50px;
-	} */
+	.slider-content .slider-btn li {
+		display: block;
+	}
+	.slider-content .slider-btn {
+		padding-top: 0px;
+	}
+	.rounded-buttons .main-btn {
+		font-size: 12px;
+		line-height: 30px;
+		border-radius: 10px;
+	}
 	.carousel-item .slider-image-box {
-		width: 400px;
-		right: 10%;
+		width: 75%;
+		right: 0;
 	}
 	.features-area {
 		margin-top: 0px;
@@ -185,11 +207,17 @@
 	.features-area {
 		padding-top: 10px;
 	}
+	.features-title {
+		font-size: 18px;
+	}
 	.single-features {
 		margin-top: 10px;
 		margin-bottom: 10px;
 		padding-top: 30px;
 		padding-bottom: 10px;
+	}
+	.features-col {
+		padding: 0px 3px;
 	}
 	.team-slider .slick-arrow {
 		color: #0067f4;
@@ -212,10 +240,22 @@
 	.single-testimonial {
 		padding: 30px;
 	}
+	.contact-area .col {
+		padding: 0 3px;
+	}
+	.pricing-style {
+		padding: 10px;
+	}
+	.pricing-style .pricing-icon {
+		width: 30%;
+	}
 	.pricing-style .pricing-header .sub-title {
 		margin-top: 5px;
 	}
 	.pricing-style .pricing-header .month {
 		font-size: 16px;
+	}
+	.pricing-style .pricing-btn {
+		margin-top: 10px;
 	}
 }
